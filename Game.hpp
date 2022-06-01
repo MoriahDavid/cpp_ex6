@@ -1,4 +1,6 @@
 #include <string.h>
+#include "Team.hpp"
+
 
 namespace ariel{
 
@@ -10,6 +12,6 @@ namespace ariel{
             Team out_team;
             double score;
 
-            Team* decide_in_teko(game& g);
+            Team* decide_in_teko(Game& g);
     };
 }
